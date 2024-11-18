@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.home-box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.log-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 1500px;
+}
+.login-box {
+  margin-right: 50px;
+  font-size: 30px;
+}
+.home-box a,
+.login-box a,
+.register-box a {
+  text-decoration: none;
+  color: black;
+}
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.title {
+  font-size: 70px;
+}
